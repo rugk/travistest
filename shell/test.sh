@@ -15,6 +15,7 @@ wget https://curl.haxx.se/download/curl-$CURL_VERSION.tar.bz2.asc
 gpg --verify curl-$CURL_VERSION.tar.bz2.asc
 
 bzip2 -d curl-$CURL_VERSION.tar.bz2
+tar -xf $CURL_VERSION.tar
 
 # build curl version
 cd curl-$CURL_VERSION
