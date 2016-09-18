@@ -9,13 +9,14 @@ gpg --import "$CURRDIR/danielcurlkey.asc"
 echo "27EDEAF22F3ABCEB50DB9A125CC908FDB71E12C2:6:"|gpg --import-ownertrust
 
 # Download recent curl version
-wget https://curl.haxx.se/download/curl-$CURL_VERSION.tar.bz2
+# wget https://curl.haxx.se/download/curl-$CURL_VERSION.tar.bz2
+wget http://dl.uxnr.de/mirror/curl/curl-$CURL_VERSION.tar.bz2
 wget https://curl.haxx.se/download/curl-$CURL_VERSION.tar.bz2.asc
 
 gpg --verify curl-$CURL_VERSION.tar.bz2.asc
 
 bzip2 -d curl-$CURL_VERSION.tar.bz2
-tar -xf $CURL_VERSION.tar
+tar -xf curl-$CURL_VERSION.tar
 
 # build curl version
 cd curl-$CURL_VERSION
