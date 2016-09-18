@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Verifies taht the key is signed by rugk.
+#
+# Verifies that the key is signed by rugk.
 #
 set -ex
 

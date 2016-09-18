@@ -23,3 +23,8 @@ addons:
     - sourceline: 'ppa:git-core/ppa'
     packages:
     - git
+
+notifications:
+  email:
+    on_success: never
+    on_failure: never
