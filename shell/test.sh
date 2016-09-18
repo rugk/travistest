@@ -25,7 +25,7 @@ cd curl-$CURL_VERSION
 make
 sudo make install
 
-sudo ln -s /usr/local/bin/curl /usr/bin/curl
+# sudo ln -s /usr/local/bin/curl /usr/bin/curl
 
 # show curl version
 curl --version
