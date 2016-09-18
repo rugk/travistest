@@ -5,7 +5,7 @@ CURL_VERSION="7.50.3"
 PHP_VERSION="7.0.11"
 CURRDIR=$( dirname "$0" )
 
-CURL_MIRROR="http://dl.uxnr.de/download" # https://curl.haxx.se/mirror/curl
+CURL_MIRROR="http://dl.uxnr.de/mirror/curl" # https://curl.haxx.se/download
 PHP_MIRRROR="http://de1.php.net/get"
 PHP_MIRRROR_APPEND="/from/this/mirror"
 
